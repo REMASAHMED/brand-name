@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: #332548;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 83%;
+    font-size: 16px;
+    margin-top: 25px;
+    position: absolute;
+    transition: 0.5s;
+}
+a:hover{
+    color: #ff0084;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    margin-left: 11%;
+    margin-top: 1%;
+    position: absolute;
+}
+.one{
+    position: absolute;
+    width: 472px;
+    margin-left: 52%;
+    margin-top: 8%;
+    z-index: 10;
+}
+.two{
+    position: absolute;
+    margin-left: 336px;
+    margin-top: 12px;
+}
+h3{
+    color: white;
+    font-size: 51px;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+}
+p{
+    color: white;
+    font-size: 20px;
+    width: 627px;
+    margin-top: 17%;
+    position: absolute;
+    z-index: 50;
+    margin-left: 10%;
+}
+button{
+    border: none;
+    margin-left: 10%;
+    margin-top: 26%;
+    color: white;
+    background: #ff0084;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 23px;
+}
